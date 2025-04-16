@@ -334,39 +334,41 @@ body {
 /* Contact Section */
 .contact {
     text-align: center;
-    padding: 50px 20px;
-    background-color: #f7f7f7;
+    padding: 60px 20px;
+    background: linear-gradient(180deg, #f1fdf7, #f7f7f7);
 }
 
 .section-title {
     font-size: 36px;
-    color: #333;
+    color: #2f4858;
     margin-bottom: 10px;
+    font-weight: bold;
 }
 
 .section-description {
-    font-size: 16px;
-    color: #555;
-    margin-bottom: 30px;
+    font-size: 17px;
+    color: #6c757d;
+    margin-bottom: 35px;
 }
 
 .contact-form {
     max-width: 600px;
-    margin: 0 auto 30px;
-    background: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto 40px;
+    background: #ffffff;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
 }
 
 .form-group {
-    margin-bottom: 20px;
+    margin-bottom: 22px;
     text-align: left;
 }
 
 .form-group label {
-    font-size: 14px;
-    color: #555;
+    font-size: 15px;
+    color: #444;
+    font-weight: 500;
     display: block;
     margin-bottom: 8px;
 }
@@ -374,42 +376,56 @@ body {
 .form-group input,
 .form-group textarea {
     width: 100%;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    font-size: 14px;
+    padding: 12px 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    background-color: #fafafa;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #017143;
+    outline: none;
+    background-color: #fff;
 }
 
 .btn-submit {
     display: inline-block;
     background-color: #017143;
     color: #fff;
-    padding: 10px 20px;
+    padding: 12px 28px;
     border: none;
-    border-radius: 4px;
+    border-radius: 8px;
     cursor: pointer;
     font-size: 16px;
-    transition: background-color 0.3s;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .btn-submit:hover {
-    background-color: #014d30;
+    background-color: #015e36;
+    transform: translateY(-2px);
 }
 
 .contact-info {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .contact-info h2 {
-    font-size: 20px;
-    color: #333;
-    margin-bottom: 10px;
+    font-size: 22px;
+    color: #2f4858;
+    margin-bottom: 12px;
+    font-weight: 600;
 }
 
 .contact-info p {
-    font-size: 14px;
-    color: #555;
-    line-height: 1.6;
+    font-size: 15px;
+    color: #5c5c5c;
+    line-height: 1.7;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 header.sticky {
